@@ -29,7 +29,7 @@ A responsive Blood Bank Management website developed to connect blood donors and
 
 ### Header & Navigation Bar
 
-![Header and Navigation Bar](Header+Nagivationbar.png)
+![Header and Navigation Bar](Header+Navigationbar.png)
 
 ### Logo
 
@@ -37,19 +37,19 @@ A responsive Blood Bank Management website developed to connect blood donors and
 
 ### About & Working Section
 
-![About and Working](InvalidUrl)
+![About and Working](about+working.png)
 
 ### Donor Information Section
 
-![Donor Section](InvalidUrl)
+![Donor Section](donor.png)
 
 ### Registration Feature
 
-![Registration Feature](InvalidUrl)
+![Registration Feature](feature+registration.png)
 
 ### Footer
 
-![Footer](InvalidUrl)
+![Footer](footer.png)
 
 ---
 
