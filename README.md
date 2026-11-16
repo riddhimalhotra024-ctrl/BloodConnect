@@ -29,11 +29,11 @@ A responsive Blood Bank Management website developed to connect blood donors and
 
 ### Header & Navigation Bar
 
-![Header and Navigation Bar](header+nagivationbar.png)
+![Header and Navigation Bar](Header+Nagivationbar.png)
 
 ### Logo
 
-![Project Logo](InvalidUrl)
+![Project Logo](Logo.png)
 
 ### About & Working Section
 
@@ -50,34 +50,6 @@ A responsive Blood Bank Management website developed to connect blood donors and
 ### Footer
 
 ![Footer](InvalidUrl)
-
----
-
-## 📂 Project Structure
-
-Blood\-Connect/
-
-│
-
-├── index.html
-
-├── style.css
-
-├── script.js
-
-├── Header\+Navigationbar.png
-
-├── Logo.png
-
-├── about\+working.png
-
-├── donor.png
-
-├── feature\+registration.png
-
-├── footer.png
-
-└── README.md
 
 ---
 
@@ -101,32 +73,3 @@ Blood\-Connect/
 - Email and SMS Notifications
 
 ---
-
-## 💻 Installation
-
-1. Clone the repository:
-
-git clone [https://github.com/your\-username/Blood\-Connect.git](https://github.com/your-username/Blood-Connect.git)
-
-1. Navigate to the project folder:
-
-cd Blood\-Connect
-
-1. Open index.html in your browser.
-
----
-
-## 👨‍💻 Author
-
-**Aditya Kumar**
-
-Frontend Developer \| Data Analytics Enthusiast
-
-Passionate about building responsive web applications and solving real\-world problems through technology.
-
----
-
-## ⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.
-
