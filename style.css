@@ -1,0 +1,468 @@
+/* General Page Styling */
+body {
+    background-color: #fff5f5;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+/* Navigation Bar */
+/*
+nav {
+    background-color: #8B0000;
+    padding: 15px 0;
+    border-radius: 8px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD6D6;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+    */
+
+ .nav-link{
+    color:white !important;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#ffd6d6 !important;
+}   
+
+/* Main Heading */
+h1 {
+    color: #b30000;
+    text-align: center;
+    font-size: 42px;
+    background-color: #ffe5e5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Sub Heading */
+h2 {
+    color: #8b0000;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    margin-top: 80px;
+}
+
+/* Section Headings */
+h3 {
+    color: #8b0000;
+    font-size: 30px;
+    margin-top: 80px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {
+    color: #8b0000;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+/* Paragraph Styling */
+p{
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 15px 30px;
+    color: #333;
+}
+
+/* Feature Section */
+.features {
+    background-color: #ffe5e5;
+    padding: 15px;
+    border-left: 5px solid #b30000;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #f6d1d1;;
+    color: #b30000;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.step {
+    background: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+.icon {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.step h3 {
+    font-size: 14px;
+    color: #8B0000;
+    text-decoration: none;
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+.step p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 10;
+}
+.feature-list{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.feature-item{
+    background:white;
+    padding:15px 20px;
+    border-radius:10px;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.1);
+    font-size:16px;
+}
+
+#register {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.register-text {
+    max-width: 800px;
+    margin: 15px auto 30px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.donor-form {
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.donor-form input,
+.donor-form select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.donor-form button {
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.donor-form button:hover {
+    background-color: #b30000;
+}
+
+#find{
+    text-align: center;
+    margin: 60px auto;
+}
+
+.find-description{
+    max-width: 800px;
+    margin: 15px auto 25px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.find-donor-box{
+    background: white;
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.find-donor-box input,
+.find-donor-box select{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.find-donor-box button{
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.find-donor-box button:hover{
+    background-color: #b30000;
+}
+
+#compatibility {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.compatibility-text {
+    max-width: 800px;
+    margin: 15px auto 25px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.compatibility-box {
+    background: white;
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.compatibility-box select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.compatibility-box button {
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.compatibility-box button:hover {
+    background-color: #b30000;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8B0000;
+}
+.hidden{
+    display: none;
+}
+#searchResults{
+    margin-top: 30px;
+}
+
+.result-card{
+    width: 650px;
+    margin: 15px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donor-info{
+    text-align: left;
+}
+
+.result-card button{
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.result-card button:hover{
+    background-color: #b30000;
+}
+
+
+/* =========================
+   Responsive Design
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Navigation Bar */
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    /* Image */
+    img {
+        width: 90%;
+        height: auto;
+    }
+
+    /* About / Why Donate Sections */
+    .about-text,
+    .why-text,
+    .register-text,
+    .find-description,
+    .compatibility-text {
+        width: 90%;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    /* How It Works Cards */
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 90%;
+    }
+
+    /* Registration Form */
+    .donor-form {
+        width: 90%;
+    }
+
+    /* Find Donor Section */
+    .find-donor-box {
+        width: 90%;
+    }
+
+    /* Donor Search Results */
+    .result-card {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .donor-info {
+        text-align: center;
+    }
+
+    /* Compatibility Checker */
+    .compatibility-box {
+        width: 90%;
+    }
+
+    /* Feature Cards */
+    .feature-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .step h3,
+    .donor-card h4 {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloodConnect - Blood Bank Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+
+    <div class="container">
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#About">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#how-it-works">How It Works</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Features">Key Features</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#register">Register as Donor</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#find">Find a Donor</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#compatibility">
+                        Check Compatibility
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Why">
+                        Why Donate?
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+<body>
+     <section id="home"></section>
+    <!-- Header Section -->
+    <h1>🩸 BloodConnect</h1>
+    <h4>Connecting Donors, Saving Lives</h4>
+    
+
+    <!-- Project Image -->
+    <img src="Logo.png"
+        alt="Blood Donation" width="500">
+
+    <section id="About"></section>
+
+    <!-- Introduction -->
+    <h3>About BloodConnect</h3>
+
+    <p>
+    BloodConnect is a modern Blood Bank Management System designed to bridge the gap
+    between blood donors and recipients. The platform provides a reliable and
+    user-friendly way to connect individuals who are willing to donate blood with
+    those who need it during emergencies.
+
+    Through BloodConnect, donors can easily register themselves, while users can
+    search for suitable donors based on blood group and location. The system also
+    promotes donor privacy by sharing contact information only through secure contact
+    requests.
+
+    Our mission is to create a community-driven platform that encourages voluntary
+    blood donation, raises awareness about its importance, and ensures that life-saving
+    blood is accessible when it is needed the most. By leveraging technology, BloodConnect
+    aims to make the process of finding and connecting with blood donors faster,
+    safer, and more efficient.
+
+    </p>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+
+    <h2>How It Works</h2>
+
+    <div class="steps">
+
+        <div class="step">
+            <span class="icon">🩸</span>
+            <h3>1. Register as a Donor</h3>
+            <p>
+                Sign up by providing your blood group, city, and contact details to join the donor network.
+            </p>
+        </div>
+
+        <div class="step">
+            <span class="icon">🔍</span>
+            <h3>2. Search for Donors</h3>
+            <p>
+                Users can search for available donors based on blood group and location during emergencies.
+            </p>
+        </div>
+
+        <div class="step">
+            <span class="icon">🔐</span>
+            <h3>3. Request Contact Securely</h3>
+            <p>
+                Donor information remains private and is shared only through the contact request system.
+            </p>
+        </div>
+
+        <div class="step">
+            <span class="icon">❤️</span>
+            <h3>4. Check Blood Compatibility</h3>
+            <p>
+                Use the compatibility checker to find suitable donor blood groups quickly and accurately.
+            </p>
+        </div>
+
+        <div class="step">
+            <span class="icon">✅</span>
+            <h3>5. Save Lives</h3>
+            <p>
+                Connect donors with recipients efficiently and help provide timely support during critical situations.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+    
+    <section id="Features"></section>
+    <!-- Features Section -->
+    <h3>Key Features</h3>
+
+    <div class="feature-list">
+
+<div class="feature-item">
+🩸 Donor Registration System
+</div>
+
+<div class="feature-item">
+🔍 Search Donors by Blood Group & City
+</div>
+
+<div class="feature-item">
+🔐 Privacy-Protected Contact Request
+</div>
+
+<div class="feature-item">
+📊 Blood Availability Dashboard
+</div>
+
+<div class="feature-item">
+❤️ Blood Compatibility Checker
+</div>
+
+</div>
+
+<section id="register">
+
+    <h2>Register as a Donor</h2>
+
+    <p class="register-text">
+        Every blood donor is a real-life hero. By registering as a donor, you can help
+        patients undergoing surgeries, accident victims, and individuals battling serious
+        illnesses. A few minutes of your time can make a lifelong difference to someone
+        in need. Join BloodConnect today and become part of a community dedicated to
+        saving lives through the gift of blood donation.
+    </p>
+
+    <form class="donor-form" id="donorFormElement">
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="number" id="age" placeholder="Age" required>
+
+        <select required>
+            <option value="">Select Blood Group</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+
+        <input type="text" placeholder="City" required>
+
+        <input type="date">
+
+        <button type="submit" class="btn btn-danger">
+    🩸 Register Now
+</button>
+
+    </form>
+
+</section>
+<section id="find">
+
+    <h2>Find a Donor</h2>
+
+    <p class="find-description">
+        Search for registered blood donors based on blood group and city.
+        Our donor network helps connect patients with suitable donors
+        quickly and efficiently.
+    </p>
+
+    <div class="find-donor-box">
+
+        <select id="bloodGroupSearch">
+            <option value="">Select Blood Group</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+
+        <input type="text" id="citySearch"
+               placeholder="Enter City">
+
+        
+        <button onclick="findDonors()" class="btn btn-danger">
+    🔍 Search Donor
+</button>
+
+    </div>
+
+    <div id="searchResults"></div>
+
+</section>
+
+<section id="compatibility">
+
+    <h2>Blood Compatibility Checker</h2>
+
+    <p class="compatibility-text">
+        Not sure which blood groups are compatible? Use our Blood Compatibility
+        Checker to quickly find compatible donor blood groups for a patient in need.
+        This feature helps users understand blood compatibility and locate suitable
+        donors more efficiently during emergencies.
+    </p>
+
+    <div class="compatibility-box">
+
+        <select id="bloodGroup">
+            <option value="">Select Blood Group</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select>
+
+        <button onclick="checkCompatibility()" class="btn btn-danger">
+    Check Compatibility
+</button>
+
+        <div id="result"></div>
+
+    </div>
+
+</section>
+
+    <section id="Why"></section>
+    <!-- Importance Section -->
+    <h3>Why Blood Donation Matters</h3>
+
+    <p>
+        
+    Blood donation is a simple yet powerful act that can save lives. Every day,
+    patients undergoing surgeries, accident victims, cancer patients, and individuals
+    with serious medical conditions rely on donated blood for survival. Since blood
+    cannot be manufactured artificially, voluntary donors play a vital role in ensuring
+    a continuous and reliable blood supply. By donating blood, you are not just giving
+    a few minutes of your time, you are giving someone a second chance at life.
+
+    </p>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer>
+    <p>© 2026 BloodConnect | Connecting Donors, Saving Lives</p>
+</footer>
+</body>
+
+</html>
