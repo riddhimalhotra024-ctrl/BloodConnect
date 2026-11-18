@@ -1,5 +1,3 @@
-
-
 # 🩸 Blood Connect
 
 A responsive Blood Bank Management website developed to connect blood donors and recipients through a simple, accessible, and user\-friendly platform. Blood Connect helps users register as donors, search for suitable donors, check blood availability, understand blood group compatibility, and access blood donation information while maintaining donor privacy.
